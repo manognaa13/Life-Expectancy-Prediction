@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            /*background-color: #dfdfdf;*/
+            background-image: url('/static/bg1.jpg');
+            background-size: 100% 100%; /* Adjust the background size to cover the entire body */
+            background-repeat: no-repeat;
+            background-attachment : fixed;
+            margin: 0;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+            color: #fffcfc;
+        }
+
+        .prediction {
+            font-size: 36px;
+            color: #ecebeb;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+       
+        <p class="prediction">The predicted life expectancy is: <strong>{{ prediction }}</strong></p>
+    </div>
+</body>
+</html>

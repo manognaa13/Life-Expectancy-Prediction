@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Life Expectancy Prediction</title>
+    <style>       
+        /* Body styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('/static/img.jpg');
+            background-size: cover; /* Adjust the background size to cover the entire body */
+            background-repeat: no-repeat; /* Prevent background image from repeating */
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        /* Header styles */
+        header {
+          /*  background-color: #333333;*/
+            color: #ffffff;
+            position: absolute;
+            top: 2px;
+            left: 180px;
+            text-align:center;
+            padding: 64px;
+        }
+
+        /* H1 styles */
+        h1 {
+            font-size: 50px;
+            margin-top: 20px;
+            margin-bottom: 0;
+            text-align:center
+        }
+
+        /* Predict button styles */
+        .predict-button {
+            margin: 20px;
+            padding: 10px 20px;
+            background-color: #FF5733; /* Change the background color to your preferred color */
+            color: #fff;
+            border: none;
+            font-size: 30px;
+            cursor: pointer;
+            position: absolute;
+            top: 210px;
+            left: 370px;
+            border-radius: 5px; /* Add rounded corners */
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s;
+        }
+
+        .predict-button:hover {
+            background-color: #FF7E47; /* Change the hover background color */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>LIFE EXPECTANCY PREDICTION</h1>
+        <a href="/index">
+            <button class="predict-button">PROCEED</button>
+        </a>
+    </header>
+</body>
+</html>
